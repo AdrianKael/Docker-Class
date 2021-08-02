@@ -6,4 +6,4 @@ WORKDIR /tmp
 RUN pip3 install -r requirements.txt
 COPY . /home/src
 WORKDIR /home/src
-CMD ["python3","src/app.py"] 
+CMD ["flask","run","--port=8001","--host=0.0.0.0"]  
