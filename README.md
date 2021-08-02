@@ -1,7 +1,7 @@
 # Docker-Class
-HomeWork2
+**HomeWork2** /n
 First Git clone this Repository:
-    git clone 
+    git clone https://github.com/AdrianKael/Docker-Class.git
 Run the next commands on the copied Repository:
     docker build -t myapp:0.1 .
 Once created the image by the Dockerfile instructions and the requirements.txt(check with command: docker images)
